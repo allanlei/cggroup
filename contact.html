@@ -1,0 +1,242 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="js/vendor/fullpage/dist/fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick-theme.css"/>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="examples.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+  
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="full-menu" style="display: none;">
+    <div class="menu-top">
+    <div class="logo"><a href="index.html"><img src='img/logo.png'/></a></div>
+    <div class="btn-close">
+    </div>
+    </div>
+    <div class="menu-wrapper">
+        <div class="inner-border"></div>
+        <div class="menu-corner tl"></div>
+        <div class="menu-corner tr"></div>
+        <div class="menu-corner bl"></div>
+        <div class="menu-corner br"></div>
+      <div class="menu-content">
+        <ul class="main-menu">
+          <li><a href="about.html">關於集團</a></li>
+          <li><a href="milestone.html">冠軍里程碑</a></li>
+          <li><a href="news.html">冠軍公益</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+        <ul class="side-menu">
+          <li>
+            <span>外部連結</span>
+            <a>冠軍女孩</a>
+          </li>
+          <li>
+            <span>關注我們</span>
+            <div class="social-icon">
+              <div class="fb"></div>
+              <div class="ig"></div>
+            </div>
+          </li>
+          <li>
+            <span>切換語系</span>
+            <div class="language">
+              <select class="form-control" id="language-select">
+                <option>中文</option>
+                <option>English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header-container solid">
+    <header class="wrapper ">
+        <div class="logo"><a href="index.html"><img src='img/logo.png'/></a></div>
+        <nav>
+            <ul>
+              <li><a href="about.html">關於集團</a></li>
+              <li><a href="milestone.html">冠軍里程碑</a></li>
+              <li><a href="news.html">冠軍公益</a></li>
+              <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </nav>
+        <div class="nav-right">
+          <div class="language">
+            <select class="form-control" id="language-select">
+              <option>中文</option>
+              <option>English</option>
+            </select>
+          </div>
+          <div class="menu-icon">
+            <div><span></span><span></span></div>
+            <div><span></span><span></span></div>
+          </div>
+        </div>
+    </header>
+  </div>
+  <div class="header-mobile solid">
+    <div class="d-flex">
+      <div class="logo mr-auto"><a href="index.html"><img src='img/logo.png'/></a></div>
+        <div class="menu-icon">
+          <div><span></span><span></span></div>
+          <div><span></span><span></span></div>
+        </div>
+    </div>
+  </div>
+  <div id="fullpage5">
+
+    <div class="section sec-contact" >
+      <div class="container">
+        <div class="intro">
+          <div class="title"><img src="img/title-contact2.png"/></div>
+          <p>如果您有任何需求 ， 或想更了解冠軍相關項目 ，  請填妥表格我們將有專人與您聯絡 ， 謝謝！</p>
+        </div>
+        <div class="form-container">
+          <div class="border">
+            <div class="corner tl"></div>
+            <div class="corner tr"></div>
+            <div class="corner bl"></div>
+            <div class="corner br"></div>
+          <form>
+            
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>藝人經紀</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="inputEmail">姓名</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputEmail4">聯絡信箱</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">            </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="inpuPhone">聯絡電話</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputEmail">主旨</label>
+                  <input type="text" class="form-control" >
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">內容</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="form-row captcha-box">
+                <div class="col">
+                  <label for="captcha">驗證碼</label>
+                  <input name="code" class="form-control">
+                </div>
+                <canvas id="canvas"></canvas>
+
+              </div>
+              <div class="center"><button id="valid" class="btn">送出</button></div>
+          </form>
+        </div>
+        </div>
+    </div>
+    </div>
+ 
+
+    <div class="footer section  fp-auto-height" >
+      <div class="footer-top">
+        <div class="d-flex">
+          <nav class="mr-auto">
+            <ul>
+              <li><a href="about.html">關於集團</a></li>
+              <li><a href="milestone.html">冠軍里程碑</a></li>
+              <li><a href="news.html">冠軍公益</a></li>
+              <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+          </nav>
+          <div class="social-icon">
+            <div class="fb"></div>
+            <div class="ig"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="d-flex">
+          <p class="mr-auto">
+            © 冠軍集團 ALL RIGHTS RESERVED.
+          </p>
+          <a>
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/vendor/fullpage/vendors/scrolloverflow.js"></script>
+  <script type="text/javascript" src="js/vendor/fullpage/dist/fullpage.js"></script>
+  <script type="text/javascript" src="js/vendor/captcha/jquery-captcha.js"></script>
+
+
+  
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+  
+  const captcha = new Captcha($('#canvas'),{
+        length: 4
+      });
+var myFullpage = new fullpage('#fullpage5', {
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        scrollOverflow: true,
+        slidesNavigation:true,
+        controlArrows:true ,
+        controlArrows:false
+    });
+    $(document).ready(function(){
+
+    });
+</script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
