@@ -2,9 +2,40 @@
 var titleMain  = $("#animatedHeading");
 var titleSubs  = titleMain.find("slick-active");
 if ($(window).width() > 960) {
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    infinite: true,
+    asNavFor: '.slider-nav'
+  });
 
 
-  if (titleMain.length) {
+  $('.slider-nav').slick({
+       centerMode: true,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      slidesToShow:5,
+      draggable: false,
+      pauseOnHover: false,
+      swipe: false,
+      touchMove: false,
+      focusOnSelect: true,
+      
+      asNavFor: '.slider-for',
+      vertical: true,
+      speed: 1000,
+      autoplaySpeed: 2000,
+      useTransform: true,
+      cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
+      adaptiveHeight:true
+    });
+
+
+  
+  /*if (titleMain.length) {
 
     titleMain.slick({
       autoplay: false,
@@ -17,6 +48,8 @@ if ($(window).width() > 960) {
       pauseOnHover: false,
       swipe: false,
       touchMove: false,
+      centerMode: true,
+      asNavFor: '.slider-for',
       vertical: true,
       speed: 1000,
       autoplaySpeed: 2000,
@@ -32,6 +65,6 @@ if ($(window).width() > 960) {
 
     // Manually refresh positioning of slick
     titleMain.slick('slickPlay');
-  };
+  };*/
   
 }

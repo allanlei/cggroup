@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick-theme.css"/>
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main2.css">
   <link rel="stylesheet" type="text/css" href="examples.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -114,10 +114,12 @@
 
     <div class="section sec-contact" >
       <div class="container">
+        <div class="form-wrap">
         <div class="intro">
           <div class="title"><img src="img/title-contact2.png"/></div>
           <p>如果您有任何需求 ， 或想更了解冠軍相關項目 ，  請填妥表格我們將有專人與您聯絡 ， 謝謝！</p>
         </div>
+        <div class="form-col">
         <div class="form-container">
           <div class="border">
             <div class="corner tl"></div>
@@ -169,6 +171,8 @@
           </form>
         </div>
         </div>
+        </div>
+      </div>
     </div>
     </div>
  
@@ -210,6 +214,7 @@
   <script type="text/javascript" src="js/vendor/fullpage/dist/fullpage.js"></script>
   <script type="text/javascript" src="js/vendor/captcha/jquery-captcha.js"></script>
 
+  <script type="text/javascript" src="js/vendor/inview/jQuery-inView.min.js"></script>
 
   
   <script src="js/main.js"></script>
@@ -219,15 +224,21 @@
   const captcha = new Captcha($('#canvas'),{
         length: 4
       });
-var myFullpage = new fullpage('#fullpage5', {
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        scrollOverflow: true,
-        slidesNavigation:true,
-        controlArrows:true ,
-        controlArrows:false
-    });
-    $(document).ready(function(){
 
+    $(document).ready(function(){
+      function checkVisability() {
+        if ($(".sec-contact .intro").inView("both")) {
+          $(".sec-contact .intro").addClass("visible");
+        }
+    
+        }
+
+        checkVisability();
+
+        $(window).scroll(function() {
+        console.log('scroll');
+        checkVisability();
+        });
     });
 </script>
 

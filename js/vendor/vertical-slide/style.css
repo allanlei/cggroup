@@ -78,7 +78,7 @@
 
 .animate--grow,
 .no-js .hero__title .slick-dupe:nth-child(2) > span,
-.hero__title .slick-current + .slick-slide > span {
+.hero__title .slick-current.slick-slide > span {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: "linear";
@@ -147,7 +147,6 @@
   display: none;
 }
 .slick-current + .slick-slide {
-  min-height: 32vh;
 }
 [dir="rtl"] .slick-slide {
   float: right;

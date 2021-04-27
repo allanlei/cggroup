@@ -9,36 +9,12 @@
 	],
 "creatorBuild": "32147",
 "files": {
-	"/.editorconfig": {
+	"/.nojekyll": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/.editorconfig",
-		"oF": 0
-		},
-	"/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitattributes",
-		"oF": 0
-		},
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.htaccess",
+		"oAP": "/.nojekyll",
 		"oF": 0
 		},
 	"/404.html": {
@@ -102,6 +78,29 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/css/main2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/main2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/main2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/main2.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -424,17 +423,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/about-cloud.png": {
-		"ft": 32768,
-		"iS": 316385,
-		"oA": 0,
-		"oAP": "/img/about-cloud.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/about-data.png": {
 		"ft": 32768,
 		"iS": 16122,
@@ -523,28 +511,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/about-web.jpg": {
-		"ft": 16384,
-		"iS": 557044,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/about-web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/beige-bg.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/beige-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/bg1.jpg": {
 		"ft": 16384,
 		"iS": 123576,
@@ -602,9 +568,20 @@
 		},
 	"/img/boy-mountain.png": {
 		"ft": 32768,
-		"iS": 272297,
+		"iS": 216019,
 		"oA": 0,
 		"oAP": "/img/boy-mountain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/brush-fade.png": {
+		"ft": 32768,
+		"iS": 230390,
+		"oA": 0,
+		"oAP": "/img/brush-fade.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -624,7 +601,7 @@
 		},
 	"/img/cg-border.png": {
 		"ft": 32768,
-		"iS": 104840,
+		"iS": 271334,
 		"oA": 0,
 		"oAP": "/img/cg-border.png",
 		"oF": 0,
@@ -646,7 +623,7 @@
 		},
 	"/img/cg-dye.png": {
 		"ft": 32768,
-		"iS": 507552,
+		"iS": 389742,
 		"oA": 0,
 		"oAP": "/img/cg-dye.png",
 		"oF": 0,
@@ -657,7 +634,7 @@
 		},
 	"/img/cg-g1.png": {
 		"ft": 32768,
-		"iS": 206022,
+		"iS": 157244,
 		"oA": 0,
 		"oAP": "/img/cg-g1.png",
 		"oF": 0,
@@ -668,7 +645,7 @@
 		},
 	"/img/cg-g2.png": {
 		"ft": 32768,
-		"iS": 159940,
+		"iS": 154537,
 		"oA": 0,
 		"oAP": "/img/cg-g2.png",
 		"oF": 0,
@@ -679,7 +656,7 @@
 		},
 	"/img/cg-g3.png": {
 		"ft": 32768,
-		"iS": 191324,
+		"iS": 145989,
 		"oA": 0,
 		"oAP": "/img/cg-g3.png",
 		"oF": 0,
@@ -690,7 +667,7 @@
 		},
 	"/img/cg-g4.png": {
 		"ft": 32768,
-		"iS": 210509,
+		"iS": 209399,
 		"oA": 0,
 		"oAP": "/img/cg-g4.png",
 		"oF": 0,
@@ -751,6 +728,61 @@
 		"oAP": "/img/CGweb_FILM.mp4",
 		"oF": 0
 		},
+	"/img/charity-mobile1.png": {
+		"ft": 32768,
+		"iS": 213401,
+		"oA": 0,
+		"oAP": "/img/charity-mobile1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/charity1.png": {
+		"ft": 32768,
+		"iS": 519855,
+		"oA": 0,
+		"oAP": "/img/charity1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/charity2.png": {
+		"ft": 32768,
+		"iS": 529433,
+		"oA": 0,
+		"oAP": "/img/charity2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cloud-border2.png": {
+		"ft": 32768,
+		"iS": 397751,
+		"oA": 0,
+		"oAP": "/img/cloud-border2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/cloud2.png": {
+		"ft": 32768,
+		"iS": 334742,
+		"oA": 0,
+		"oAP": "/img/cloud2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/contact-bg.jpg": {
 		"ft": 16384,
 		"iS": 597108,
@@ -760,17 +792,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/img/contact-bg.png": {
-		"ft": 32768,
-		"iS": 549108,
-		"oA": 0,
-		"oAP": "/img/contact-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/img/contact-title.png": {
@@ -828,6 +849,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/images/about-newbg_01.jpg": {
+		"ft": 16384,
+		"iS": 743892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/images/about-newbg_01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/images/about-newbg_03.jpg": {
+		"ft": 16384,
+		"iS": 2426550,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/images/about-newbg_03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/images/border-bl.png": {
 		"ft": 32768,
 		"iS": 2291,
@@ -872,116 +915,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/images/cg-bg.png": {
-		"ft": 32768,
-		"iS": 324222,
-		"oA": 0,
-		"oAP": "/img/images/cg-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-branch.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/img/images/cg-branch.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-dye.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/img/images/cg-dye.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-g1.png": {
-		"ft": 32768,
-		"iS": 148399,
-		"oA": 0,
-		"oAP": "/img/images/cg-g1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-g2.png": {
-		"ft": 32768,
-		"iS": 159940,
-		"oA": 0,
-		"oAP": "/img/images/cg-g2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-g3.png": {
-		"ft": 32768,
-		"iS": 157188,
-		"oA": 0,
-		"oAP": "/img/images/cg-g3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-g4.png": {
-		"ft": 32768,
-		"iS": 210509,
-		"oA": 0,
-		"oAP": "/img/images/cg-g4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-title.png": {
-		"ft": 32768,
-		"iS": 45870,
-		"oA": 0,
-		"oAP": "/img/images/cg-title.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-treel.png": {
-		"ft": 32768,
-		"iS": 237217,
-		"oA": 0,
-		"oAP": "/img/images/cg-treel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/cg-treer.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/img/images/cg-treer.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/images/contact-bg.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -993,121 +926,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/images/contact-title.png": {
-		"ft": 32768,
-		"iS": 14574,
-		"oA": 0,
-		"oAP": "/img/images/contact-title.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/form-bg.png": {
+	"/img/images/slice_12.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "/img/images/form-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/milestone-img2_04.png": {
-		"ft": 32768,
-		"iS": 193748,
-		"oA": 0,
-		"oAP": "/img/images/milestone-img2_04.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/milestone-img3_10.png": {
-		"ft": 32768,
-		"iS": 350407,
-		"oA": 0,
-		"oAP": "/img/images/milestone-img3_10.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/images/milsetone-img2.jpg": {
-		"ft": 16384,
-		"iS": 47081,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/images/milsetone-img2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/images/mountain-side.png": {
-		"ft": 32768,
-		"iS": 473359,
-		"oA": 0,
-		"oAP": "/img/images/mountain-side.png",
+		"oAP": "/img/images/slice_12.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/images/news1.jpg": {
-		"ft": 16384,
-		"iS": 196556,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/images/news1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/images/news2.jpg": {
-		"ft": 16384,
-		"iS": 124483,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/images/news2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/images/slice3_42.jpg": {
-		"ft": 16384,
-		"iS": 17414,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/images/slice3_42.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/images/title-chariy.jpg": {
-		"ft": 16384,
-		"iS": 16568,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/images/title-chariy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/intro_boy.png": {
+	"/img/images/timeline_title_03.png": {
 		"ft": 32768,
-		"iS": 465043,
+		"iS": 5718,
 		"oA": 0,
-		"oAP": "/img/intro_boy.png",
+		"oAP": "/img/images/timeline_title_03.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1127,7 +961,7 @@
 		},
 	"/img/intro_ml.png": {
 		"ft": 32768,
-		"iS": 144557,
+		"iS": 159625,
 		"oA": 0,
 		"oAP": "/img/intro_ml.png",
 		"oF": 0,
@@ -1153,94 +987,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/intro_sun.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/large/about-cloud.png": {
-		"ft": 32768,
-		"iS": 660300,
-		"oA": 0,
-		"oAP": "/img/large/about-cloud.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/boy-mountain.png": {
-		"ft": 32768,
-		"iS": 1357261,
-		"oA": 0,
-		"oAP": "/img/large/boy-mountain.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/cg-treel.png": {
-		"ft": 32768,
-		"iS": 248054,
-		"oA": 0,
-		"oAP": "/img/large/cg-treel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/cg-treer.png": {
-		"ft": 32768,
-		"iS": 238030,
-		"oA": 0,
-		"oAP": "/img/large/cg-treer.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/contact-bg.png": {
-		"ft": 32768,
-		"iS": 806110,
-		"oA": 0,
-		"oAP": "/img/large/contact-bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/intro_ml.png": {
-		"ft": 32768,
-		"iS": 698551,
-		"oA": 0,
-		"oAP": "/img/large/intro_ml.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/intro_mr.png": {
-		"ft": 32768,
-		"iS": 496427,
-		"oA": 0,
-		"oAP": "/img/large/intro_mr.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/large/intro_sun.jpg": {
-		"ft": 16384,
-		"iS": 885752,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/large/intro_sun.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1367,6 +1113,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/milestone-mask.jpg": {
+		"ft": 16384,
+		"iS": 144007,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/milestone-mask.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/milestone-mask.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/img/milestone-mask.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone1.jpg": {
+		"ft": 16384,
+		"iS": 175874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/milestone1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/milestone2.jpg": {
+		"ft": 16384,
+		"iS": 153105,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/milestone2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/milestone3.jpg": {
+		"ft": 16384,
+		"iS": 434177,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/milestone3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/milsetone-img2.png": {
 		"ft": 32768,
 		"iS": 144037,
@@ -1395,14 +1196,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/img/mixkit-mist-at-the-base-of-a-snowy-mountain-3308.mp4",
-		"oF": 0
-		},
-	"/img/mixkit-portrait-of-a-fashion-woman-with-silver-makeup-39875.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/img/mixkit-portrait-of-a-fashion-woman-with-silver-makeup-39875.mp4",
 		"oF": 0
 		},
 	"/img/mountain-side-reverse.png": {
@@ -1471,6 +1264,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/news1-mobile.png": {
+		"ft": 32768,
+		"iS": 310652,
+		"oA": 0,
+		"oAP": "/img/news1-mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/news1.jpg": {
 		"ft": 16384,
 		"iS": 196556,
@@ -1484,12 +1288,12 @@
 		},
 	"/img/news1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 339791,
 		"oA": 0,
 		"oAP": "/img/news1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1504,11 +1308,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/news2.png": {
+	"/img/news3.png": {
 		"ft": 32768,
-		"iS": 509620,
+		"iS": 220264,
 		"oA": 0,
-		"oAP": "/img/news2.png",
+		"oAP": "/img/news3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1592,12 +1396,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/index-old.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index-old.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/index2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index2.html",
 		"oF": 0
 		},
 	"/js/main-min.js": {
@@ -1837,6 +1657,39 @@
 		"oAP": "/js/vendor/fullpage/vendors/scrolloverflow.min.js.map",
 		"oF": 0
 		},
+	"/js/vendor/inview/in-view.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/vendor/inview/in-view.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/vendor/inview/jQuery-inView.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/vendor/inview/jQuery-inView-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/vendor/inview/jQuery-inView.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/vendor/inview/jQuery-inView.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/vendor/jquery-1.11.2.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1858,6 +1711,91 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/js/vendor/Petals-Falling/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/.gitignore",
+		"oF": 0
+		},
+	"/js/vendor/Petals-Falling/index.htm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/index.htm",
+		"oF": 0
+		},
+	"/js/vendor/Petals-Falling/jquery-sakura.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/jquery-sakura-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/js/vendor/Petals-Falling/jquery-sakura.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/jquery-sakura-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/vendor/Petals-Falling/jquery-sakura.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/jquery-sakura.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/js/vendor/Petals-Falling/jquery-sakura.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/jquery-sakura.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/vendor/Petals-Falling/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/LICENSE",
+		"oF": 0
+		},
+	"/js/vendor/Petals-Falling/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/vendor/Petals-Falling/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/js/vendor/skrollr-master/.gitignore": {
 		"cB": 0,

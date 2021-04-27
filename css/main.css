@@ -1120,9 +1120,12 @@ video::-webkit-media-controls-panel {
 .sec-about .services .category {
   width: 19.7%;
   display: inline-block;
-  padding: 2.5rem 4rem;
+  padding: 2.5rem 3rem;
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
+}
+.sec-about .services .category p {
+  font-weight: 500;
 }
 .sec-about .info {
   z-index: 10;
@@ -1145,6 +1148,9 @@ video::-webkit-media-controls-panel {
   margin: auto;
   margin-bottom: 1.5rem;
 }
+.sec-about .locations .info {
+  margin: auto;
+}
 .sec-about .locations .location-border {
   width: 100%;
   height: 100px;
@@ -1161,7 +1167,19 @@ video::-webkit-media-controls-panel {
   height: 660px;
   position: relative;
 }
+.sec-about .locations .map .show.locator:after {
+  height: 160px;
+  top: -70px;
+  width: 4px;
+}
+.sec-about .locations .map .show.locator .name {
+  top: -70px;
+}
+.sec-about .locations .map .show.locator .num {
+  display: none;
+}
 .sec-about .locations .map .locator {
+  cursor: pointer;
   position: absolute;
 }
 .sec-about .locations .map .locator:after {
@@ -1184,6 +1202,7 @@ video::-webkit-media-controls-panel {
   color: white;
   font-weight: 600;
   padding-top: 7px;
+  opacity: 1;
 }
 .sec-about .locations .map .locator .name {
   position: relative;
@@ -1199,14 +1218,30 @@ video::-webkit-media-controls-panel {
   border-radius: 5px;
   display: block;
   background-color: #e5001b;
-  -webkit-transition: width 1s, height 1s, margin 1s;
-  -moz-transition: width 1s, height 1s, margin 1s;
-  -ms-transition: width 1s, height 1s, margin 1s;
-  transition: width 1s, height 1s, margin 1s;
+  transition-delay: 0.2s;
+  transition: ease-in 0.25s;
   opacity: 0;
 }
 .sec-about .locations .map .locator.show .name {
   opacity: 1;
+}
+@keyframes line_r_animation {
+  0% {
+    left: calc(2% + 50px);
+    width: 0px;
+  }
+  35% {
+    left: calc(2% + 0px);
+    width: 50px;
+  }
+  70% {
+    left: calc(2% + 0px);
+    width: 0px;
+  }
+  100% {
+    left: calc(2% + 0px);
+    width: 0px;
+  }
 }
 .sec-about .locations .map #country1 {
   left: 315px;
@@ -1305,7 +1340,7 @@ video::-webkit-media-controls-panel {
   }
   .sec-about .locations .countries {
     width: 100%;
-    padding: 10px;
+    padding: 0;
     position: relative;
     top: -130px;
   }
@@ -1322,13 +1357,20 @@ video::-webkit-media-controls-panel {
   .sec-about .locations .map .locator {
     opacity: 0;
   }
+  .sec-about .locations .map .locator.show:after {
+    height: 90px;
+    top: -40px;
+  }
+  .sec-about .locations .map .locator.show .name {
+    top: -30px;
+  }
   .sec-about .locations .map .locator .num {
     display: none;
   }
   .sec-about .locations .map .locator .name {
     position: relative;
     left: -14px;
-    top: -40px;
+    top: -20px;
     padding-top: 5px;
     border-radius: 5px;
     font-size: 13px;
@@ -1339,6 +1381,7 @@ video::-webkit-media-controls-panel {
     -ms-transition: width 1s, height 1s, margin 1s;
     transition: width 1s, height 1s, margin 1s;
     display: block;
+    transition: ease-in 0.25s;
   }
   .sec-about .locations .map .locator.show {
     opacity: 1;
@@ -1560,9 +1603,27 @@ video::-webkit-media-controls-panel {
   top: 0px;
 }
 .sec-milestone .kv {
+  width: 1125px;
+  height: 682px;
   position: absolute;
   right: -200px;
-  top: -30px;
+  top: -20px;
+  overflow: hidden;
+}
+.sec-milestone .kv div {
+  width: 100%;
+  height: 100%;
+}
+.sec-milestone .kv img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.sec-milestone .kv .img-mask {
+  -webkit-mask-image: url(../img/milestone-mask.png);
+  mask-image: url(../img/milestone-mask.jpg);
+  -webkit-mask-size: 1125px 682px;
+  mask-size: 1125px 682px;
 }
 .sec-milestone p {
   padding: 0.25rem;
@@ -1765,7 +1826,8 @@ video::-webkit-media-controls-panel {
   margin-top: 1rem;
 }
 #fullpage5 .sec-contact {
-  background: url(../img/contact-bg.jpg);
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
 }
 #fullpage5 .sec-contact .intro {
   padding-top: 4rem;
@@ -2024,5 +2086,130 @@ video::-webkit-media-controls-panel {
     width: 100%;
     display: block;
     text-align: center;
+  }
+}
+.clouds {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+.clouds.cloud img.cloud1 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 10s linear infinite;
+}
+.clouds.cloud img.cloud2 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 40s linear infinite;
+}
+.clouds.cloud img.cloud3 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 15s linear infinite;
+}
+.clouds.cloud img.cloud4 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 32s linear infinite;
+}
+.clouds.cloud img.cloud5 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 20s linear infinite;
+}
+
+.clouds2 {
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 6;
+}
+.clouds2.cloud img.cloud1 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 45s linear infinite;
+}
+.clouds2.cloud img.cloud2 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 22s linear infinite;
+}
+.clouds2.cloud img.cloud4 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 20s linear infinite;
+}
+.clouds2.cloud img.cloud5 {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate 30s linear infinite;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+}
+.section.sec-about {
+  min-height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+.section.sec-news {
+  width: 100%;
+  height: 52%;
+}
+.section.sec-news .slick-dots {
+  bottom: 35px;
+}
+.section.sec-news .slide {
+  positon: relative;
+}
+.section.sec-news .intro {
+  position: absolute;
+  bottom: 100px;
+  width: 1200px;
+  margin-left: -600px;
+  left: 50%;
+  z-index: 50;
+}
+.section.sec-news img {
+  width: 100%;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.cloud-border {
+  width: 100%;
+  height: 250px;
+  background: url(../img/cloud-border.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-news .intro {
+    width: 100%;
   }
 }

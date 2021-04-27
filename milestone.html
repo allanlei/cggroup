@@ -23,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="js/vendor/vertical-slide/style.css"/>
 
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main2.css">
   <link rel="stylesheet" type="text/css" href="examples.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -117,10 +117,24 @@
     <div class="section sec-milestone">
       <div class="padding"></div>
       <div class="container">
-        <div class="kv"><img src="img/milestone-kv.png"/></div>
-        <div class="hero__title" id="animatedHeading">
-          
-          <div class="slick-dupe"><span class="hero__title-misc  |  animate">2020</span>
+        <div class="kv slider-for">
+          <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone3.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone3.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+
+        </div>
+        <div class="hero__title slider-nav" id="animatedHeading">
+          <div class="slick-dupe">
+           
+          </div>
+          <div class="slick-dupe "><span class="hero__title-misc  |  animate">2020</span>
             <div class="dot"></div>
             <div class="year-title"><img src="img/2020.png"/></div>
             <p>冠軍集團日本&印度區合作事業體正式成立 冠軍集團取得國際(Curaçao eGaming License)證照 捐贈醫療級口罩致中國武漢地區醫院
@@ -231,6 +245,7 @@
   <script type="text/javascript" src="js/vendor/fullpage/dist/fullpage.js"></script>
   <script type="text/javascript" src="js/vendor/slick/slick.min.js"></script>
   <script type="text/javascript" src="js/vendor/vertical-slide/script.js"></script>
+  <script type="text/javascript" src="js/vendor/inview/jQuery-inView.min.js"></script>
 
 
   
@@ -238,7 +253,26 @@
 
   <script type="text/javascript">
   
+  $(document).ready(function(){
 
+function checkVisability() {
+
+   if ($(".kv").inView("both")) {
+    
+     $("#animatedHeading").addClass("show");
+   }
+
+ }
+
+ checkVisability();
+
+ $(window).scroll(function() {
+ console.log('scroll');
+ checkVisability();
+ });
+
+
+});
 var myFullpage = new fullpage('#fullpage3', {
         scrollOverflow: $(window).width() <  960,
         slidesNavigation:true,

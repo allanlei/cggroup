@@ -20,12 +20,18 @@
   <link rel="stylesheet" type="text/css" href="js/vendor/fullpage/dist/fullpage.css" />
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick-theme.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+ 
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main2.css">
   <link rel="stylesheet" type="text/css" href="examples.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+  
   
 
   <meta name="theme-color" content="#fafafa">
@@ -67,7 +73,8 @@
             <span>切換語系</span>
             <div class="language">
               <select class="form-control" id="language-select">
-                <option>中文</option>
+                <option>繁中</option>
+                <option>簡中</option>
                 <option>English</option>
               </select>
             </div>
@@ -78,7 +85,7 @@
   </div>
   <div class="header-container">
     <header class="wrapper ">
-        <div class="logo"><img src='img/logo.png'/></div>
+        <div class="logo"><a href="index.html"><img src='img/logo.png'/></a></div>
         <nav>
             <ul>
               <li><a href="about.html">關於集團</a></li>
@@ -90,7 +97,8 @@
         <div class="nav-right">
           <div class="language">
             <select class="form-control" id="language-select">
-              <option>中文</option>
+              <option>繁中</option>
+              <option>簡中</option>
               <option>English</option>
             </select>
           </div>
@@ -111,18 +119,33 @@
     </div>
   </div>
   <div id="fullpage">
-    <div class="section" id="section0">
-      <video id="video-mobile" controls>
+    <div class="section sec-video" id="section0">
+      <div class="cloud-border"></div>
+      <video id="video-mobile" controls autoplay muted loop>
         <source src="img/mixkit-mist-at-the-base-of-a-snowy-mountain-3308.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
-      <video id="video-desktop" controls>
-\        <source src="img/CGweb_FILM.mp4" type="video/mp4">
+      <video id="video-desktop" controls autoplay muted loop>
+       <source src="img/CGweb_FILM.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
-
+    
     </div>
     <div class="section sec-about" id="section1">
+     
+      <div class="clouds">
+        <img class="cloud1" src="img/cloud1.png" >
+        <img class="cloud2" src="img/cloud2.png">
+        <img class="cloud3" src="img/cloud3.png" >
+        <img class="cloud4" src="img/cloud4.png" >
+        <img class="cloud5" src="img/cloud5.png" >
+      </div>
+      <div class="clouds2">
+        <img class="cloud1" src="img/cloud1.png" >
+        <img class="cloud2" src="img/cloud2.png">
+        <img class="cloud4" src="img/cloud4.png" >
+        <img class="cloud5" src="img/cloud5.png" >
+      </div>
       <div class="intro-bg"></div>
       <div class="cloud-bg"></div>
       <div class="boy"></div>
@@ -135,33 +158,41 @@
           <p>2011年成立至今冠軍集團靠著技術與軟 體研發的深厚背景與經驗，成功打造全方位 「線上娛樂平台」。
             一直以來,冠軍集團堅守「穩健誠信、創新多元、 積極進取」的精神,全力開拓亞太區泛娛樂產品 整合服務。
             </p>
-          <div class="btn-right"><button class="btn">了解更多<span class="icon-plus"></span></button></div>
+          <a href="about.html" class="btn plus">了解更多<span class="icon-plus"></span></a>
         </div>
       </div>
     </div>
-    <div class="section sec-news" id="section2">
-	    <div class="slide" id="slide1" data-anchor="slide1" style="background-image: url(img/news1.png);">
-      <div class="container">
-        <div class="intro ">
-          <h2>2018</h2>
-          <p>
-            捐款中國偏鄉小學足球場
-          </p>
-        </div>
-      </div>
-		</div>
 
-    <div class="slide" id="slide2" data-anchor="slide2" style="background-image: url(img/news2.png);">
-      <div class="container">
+    <div class="section sec-news" id="section2">
+	    <div class="slide" id="slide1" data-anchor="slide1" >         
         <div class="intro ">
           <h2>2018</h2>
-          <p>
-            捐款中國偏鄉小學足球場
-          </p>
-        </div>
+            <p>
+              捐款中國偏鄉小學足球場
+            </p>
+          </div>
+          <picture>
+            <source srcset="img/charity-mobile1.png" media="(max-width: 768px)">
+            <source srcset="img/charity2.png">
+              <img src='img/charity2.png'/>
+          </picture>
+       
       </div>
-		</div>
+      <div class="slide" id="slide1" data-anchor="slide1" >         
+        <div class="intro ">
+          <h2>2018</h2>
+            <p>
+              捐款中國偏鄉小學足球場
+            </p>
+          </div>
+          <picture>
+            <source srcset="img/charity-mobile1.png" media="(max-width: 768px)">
+            <source srcset="img/charity3.png">
+              <img src='img/charity3.png'/>
+          </picture>
+      </div>
 	</div>
+
     <div class="section sec-cggirl" id="section3">
       <div class="border"></div>
       <div class="dye"></div>
@@ -185,11 +216,11 @@
           </div>
           <div class="girl-info">
             <div class='thumbnail'><img src="img/cg-g3.png"/></div>
-            <p><span>冠軍女孩</span>Nana</p>
+            <p><span>冠軍女孩</span>Kass</p>
           </div>
           <div class="girl-info">
             <div class='thumbnail'><img src="img/cg-g4.png"/></div>
-            <p><span>冠軍女孩</span>Jessie</p>
+            <p><span>冠軍女孩</span>Nana</p>
           </div>
 
           <div class="girl-info">
@@ -200,16 +231,19 @@
             <p><span>冠軍女孩</span>Jessie</p>
           </div>
         </div>
-        <div class="center"><button class="btn">了解更多<span class="icon-forward"><i></i></span></button></div>
+        <div class="center"><a class="btn">了解更多<span class="icon-forward"><i></i></span></a></div>
       </div>
     </div>
     <div class="section sec-contact" id="section3">
       <div class="brush"></div>
       <div class="container">
+        <div class="form-wrap">
+
         <div class="intro">
           <div class="contact-title"></div>
           <p>如果您有任何需求 ， 或想更了解冠軍相關項目 ，  請填妥表格我們將有專人與您聯絡 ， 謝謝！</p>
         </div>
+        <div class="form-col">
         <div class="form-container">
           <div class="border">
             <div class="corner tl"></div>
@@ -261,9 +295,11 @@
           </form>
         </div>
         </div>
+      </div>
+      </div>
     </div>
     </div>
-    <div class="footer section fp-auto-height" id="section4">
+    <div class="footer" id="section4">
       <div class="footer-top">
         <div class="d-flex">
           <nav class="mr-auto">
@@ -299,7 +335,9 @@
   <script type="text/javascript" src="js/vendor/fullpage/vendors/scrolloverflow.js"></script>
   <script type="text/javascript" src="js/vendor/fullpage/dist/fullpage.js"></script>
   <script type="text/javascript" src="js/vendor/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/vendor/inview/jQuery-inView.min.js"></script>
   <script type="text/javascript" src="js/vendor/captcha/jquery-captcha.js"></script>
+
 
   
   <script src="js/main.js"></script>
@@ -320,15 +358,42 @@
         captcha.refresh();
       })
   /////////////////////////
-    var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        scrollOverflow: true,
-        slidesNavigation:true,
-        controlArrows:true ,
-        controlArrows:false
-    });
+
     $(document).ready(function(){
-    
+      function checkVisability() {
+
+						if ($(".girls").inView("both")) {
+							$(".girls").addClass("visible");
+              $(".sec-cggirl").find(".title").addClass("visible");
+
+						}
+            if ($(".sec-contact .intro").inView("both")) {
+							$(".sec-contact .intro").addClass("visible");
+						}
+            if ($(".sec-about .intro").inView("both")) {
+							$(".sec-about .intro").addClass("visible");
+						}
+				}
+
+				checkVisability();
+
+				$(window).scroll(function() {
+					console.log('scroll');
+					checkVisability();
+				});
+
+
+      $('.clouds, .clouds2').addClass("cloud");
+        $('.sec-news').slick({
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          speed: 500,
+          fade: true,
+          autoplaySpeed: 2000,
+          arrows: false,
+          cssEase: 'linear'
+        });
       $('.girls').slick({
         dots: true,
         infinite: false,
