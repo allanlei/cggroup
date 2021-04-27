@@ -2635,10 +2635,15 @@ video::-webkit-media-controls-panel {
   .section {
     &.sec-news {
       .intro {
-        width: 100%;
+        width: 70%;
         left: 2.5%;
         margin-left: 0;
         bottom: 20px;
+        padding: 1rem;
+        p {
+          margin-top: 0.25rem;
+          margin-bottom: 0.5rem;
+        }
       }
       .slick-dots {
         bottom: 65px;
