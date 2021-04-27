@@ -162,7 +162,7 @@
         <div class="info"><div class="title"><img src="img/title-location.png"/></div></div>
         <div class="container">
           <div class="map">
-            <div id="country1" class="locator"><span class="num">1</span><span class="name">庫拉索</span></div>
+            <div id="country1" class="locator show"><span class="num">1</span><span class="name">庫拉索</span></div>
             <div id="country2" class="locator"><span class="num">2</span><span class="name">英國</span></div>
             <div id="country3" class="locator"><span class="num">3</span><span class="name">塞普勒斯</span></div>
             <div id="country4" class="locator"><span class="num">4</span><span class="name">印度</span></div>
@@ -246,9 +246,7 @@
               if ($(".services .info").inView("both")) {
                 $(".services .info").addClass("visible");
               }
-              if ($(".map").inView("both")) {
-                $("#country1").addClass("show");
-              }
+            
               if ($(".locations .info").inView("both")) {
                 $(".locations .info").addClass("visible");
               }
