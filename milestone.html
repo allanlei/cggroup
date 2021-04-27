@@ -254,8 +254,9 @@
   <script type="text/javascript">
   
   $(document).ready(function(){
-
+    if ($(window).width() > 960) {
 function checkVisability() {
+
 
    if ($(".kv").inView("both")) {
     
@@ -270,7 +271,7 @@ function checkVisability() {
  console.log('scroll');
  checkVisability();
  });
-
+    }
 
 });
 var myFullpage = new fullpage('#fullpage3', {

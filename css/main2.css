@@ -1948,6 +1948,10 @@ video::-webkit-media-controls-panel {
 }
 
 @media only screen and (max-width: 960px) {
+  .sec-milestone #animatedHeading {
+    opacity: 1;
+  }
+
   .slick-dupe {
     clear: both;
   }
