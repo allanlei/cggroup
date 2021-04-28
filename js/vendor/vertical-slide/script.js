@@ -8,7 +8,8 @@ if ($(window).width() > 960) {
     arrows: false,
     fade: true,
     infinite: true,
-    asNavFor: '.slider-nav'
+    asNavFor: '.slider-nav',
+    cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)'
   });
 
 
@@ -19,17 +20,18 @@ if ($(window).width() > 960) {
       dots: false,
       slidesToShow:5,
       draggable: false,
-      pauseOnHover: false,
+      pauseOnHover: false, 
       swipe: false,
       touchMove: false,
       focusOnSelect: true,
       
       asNavFor: '.slider-for',
       vertical: true,
-      speed: 1000,
+      speed: 500,
       autoplaySpeed: 2000,
       useTransform: true,
-      cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
+      useCSS:"true",
+      cssEase: 'ease-in',
       adaptiveHeight:true
     });
 

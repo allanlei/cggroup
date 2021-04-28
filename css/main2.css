@@ -1824,7 +1824,6 @@ video::-webkit-media-controls-panel {
 .sec-milestone #animatedHeading {
   opacity: 0;
   transition: 1s ease-in;
-  transition-delay: 0.5s;
 }
 .sec-milestone #animatedHeading.show {
   opacity: 1;
@@ -1905,11 +1904,11 @@ video::-webkit-media-controls-panel {
 }
 .sec-milestone .hero__title .slick-current.slick-slide > .year-title {
   width: 180px;
-  transition: width linear 0.5s;
+  transition: width ease-out 0.5s;
 }
 .sec-milestone .hero__title .slick-current.slick-slide > p {
   opacity: 1;
-  transition: opacity linear 0.75s;
+  transition: opacity ease-out 0.5s;
   margin-bottom: 5rem;
 }
 .sec-milestone .hero__title .slick-current.slick-slide > .dot {
@@ -1917,7 +1916,7 @@ video::-webkit-media-controls-panel {
   height: 21px;
   border: 3px solid white;
   left: 0px;
-  transition: linear 0.75s;
+  transition: ease-out 0.5s;
 }
 
 .mobile-img,
@@ -1996,6 +1995,9 @@ video::-webkit-media-controls-panel {
   }
   .sec-milestone .slick-dupe .dot {
     top: 7px;
+  }
+  .sec-milestone .padding {
+    height: 60px;
   }
   .sec-milestone .padding:after {
     display: none;
@@ -2082,6 +2084,7 @@ video::-webkit-media-controls-panel {
   margin-top: 1rem;
 }
 #fullpage5 .sec-contact {
+  background-color: white;
   background: url(../img/contact-bg.jpg) no-repeat;
   background-size: cover;
 }
@@ -2340,6 +2343,14 @@ video::-webkit-media-controls-panel {
 }
 
 @media only screen and (max-width: 768px) {
+  .milestone-mobile-top {
+    width: 100%;
+    height: 300px;
+    background: url(../img/milstone-img.png) no-repeat;
+    background-size: cover;
+    display: block;
+  }
+
   .full-menu {
     padding: 1rem;
     background-color: black;
@@ -2534,5 +2545,53 @@ video::-webkit-media-controls-panel {
   }
   .full-menu .menu-wrapper .menu-content .side-menu li:nth-child(3) {
     margin-left: 2%;
+  }
+}
+#encima {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-mask: url(https://i.imgur.com/AYJuRke.png);
+  /*-webkit-mask: url(https://veuwer.com/i/3fxb.png);*/
+  -webkit-mask-size: 3000% 100%;
+  -webkit-animation: mask-playzero 2s steps(29);
+  animation-delay: 0.7s;
+}
+#encima img {
+  width: 100% !important;
+}
+
+@-webkit-keyframes mask-playzero {
+  from {
+    -webkit-mask-position: 0 0;
+    -ms-mask-position: 0 0;
+    -moz-mask-position: 0 0;
+    -o-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    -ms-mask-position: 100% 0;
+    -moz-mask-position: 100% 0;
+    -o-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@keyframes mask-playzero {
+  from {
+    -webkit-mask-position: 0 0;
+    -ms-mask-position: 0 0;
+    -moz-mask-position: 0 0;
+    -o-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    -ms-mask-position: 100% 0;
+    -moz-mask-position: 100% 0;
+    -o-mask-position: 100% 0;
+    mask-position: 100% 0;
   }
 }

@@ -79,8 +79,8 @@
 .animate--grow,
 .no-js .hero__title .slick-dupe:nth-child(2) > span,
 .hero__title .slick-current.slick-slide > span {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-timing-function: "linear";
   animation-timing-function: "linear";
   -webkit-animation-name: grow;

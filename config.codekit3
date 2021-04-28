@@ -772,11 +772,44 @@
 		"oAP": "/img/CGweb_FILM.mp4",
 		"oF": 0
 		},
+	"/img/charity-base.png": {
+		"ft": 32768,
+		"iS": 26776,
+		"oA": 0,
+		"oAP": "/img/charity-base.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/charity-mobile-base.png": {
 		"ft": 32768,
 		"iS": 35789,
 		"oA": 0,
 		"oAP": "/img/charity-mobile-base.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/charity-mobile1.png": {
+		"ft": 32768,
+		"iS": 209186,
+		"oA": 0,
+		"oAP": "/img/charity-mobile1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/charity-mobile2.png": {
+		"ft": 32768,
+		"iS": 171638,
+		"oA": 0,
+		"oAP": "/img/charity-mobile2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -891,6 +924,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/contact-bg.jpg": {
+		"ft": 16384,
+		"iS": 88077,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/contact-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/contact-bg.png": {
@@ -1058,17 +1102,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/intro_boy.png": {
-		"ft": 32768,
-		"iS": 283236,
-		"oA": 0,
-		"oAP": "/img/intro_boy.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/intro_cloud.png": {
 		"ft": 32768,
 		"iS": 520880,
@@ -1111,17 +1144,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/img/intro_sun.png": {
-		"ft": 32768,
-		"iS": 601684,
-		"oA": 0,
-		"oAP": "/img/intro_sun.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/img/logo.png": {
@@ -1311,17 +1333,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/milstone-img.jpg": {
-		"ft": 16384,
-		"iS": 73798,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/milstone-img.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/mixkit-mist-at-the-base-of-a-snowy-mountain-3308.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -1329,17 +1340,6 @@
 		"oA": 0,
 		"oAP": "/img/mixkit-mist-at-the-base-of-a-snowy-mountain-3308.mp4",
 		"oF": 0
-		},
-	"/img/mountain-side-reverse.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/img/mountain-side-reverse.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/img/mountain-side.png": {
 		"ft": 32768,
