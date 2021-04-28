@@ -186,7 +186,7 @@
             </p>
           </div>
           <picture>
-            <source srcset="img/charity-mobile1.png" media="(max-width: 768px)">
+            <source srcset="img/charity-mobile2.png" media="(max-width: 768px)">
             <source srcset="img/charity3.png">
               <img src='img/charity3.png'/>
           </picture>
@@ -224,10 +224,11 @@
           </div>
 
           <div class="girl-info">
-            <div class='thumbnail'><img src="img/cg-g4.png"/></div>
+            <div class='thumbnail'><img src="img/cg-g1.png"/></div>
             <p><span>冠軍女孩</span>Jessie</p>
-          </div><div class="girl-info">
-            <div class='thumbnail'><img src="img/cg-g4.png"/></div>
+          </div>
+          <div class="girl-info">
+            <div class='thumbnail'><img src="img/cg-g2.png"/></div>
             <p><span>冠軍女孩</span>Jessie</p>
           </div>
         </div>
@@ -393,14 +394,15 @@
           fade: true,
           autoplaySpeed: 2000,
           arrows: false,
-          cssEase: 'linear'
+          useTransform: true,
+          cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)'
         });
       $('.girls').slick({
         dots: true,
         infinite: false,
         speed: 300,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 2,
         arrows: false,
         responsive: [
           {

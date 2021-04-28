@@ -618,6 +618,7 @@ video::-webkit-media-controls-panel {
   background-size: cover;
   position: absolute;
   top: -120px;
+  pointer-events: none;
 }
 .sec-cggirl .dye {
   background: url(../img/cg-dye.png) no-repeat;
@@ -674,8 +675,10 @@ video::-webkit-media-controls-panel {
   position: relative;
   z-index: 6;
 }
+.sec-cggirl .girls .girl-info {
+  opacity: 0;
+}
 .sec-cggirl .girls.visible .girl-info:nth-child(1) {
-  opacity: 1;
   animation: fadeInUp;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s;
@@ -683,7 +686,6 @@ video::-webkit-media-controls-panel {
   transition-delay: 0.5s;
 }
 .sec-cggirl .girls.visible .girl-info:nth-child(2) {
-  opacity: 1;
   animation: fadeInUp;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s;
@@ -692,7 +694,6 @@ video::-webkit-media-controls-panel {
   transition-delay: 0.5s;
 }
 .sec-cggirl .girls.visible .girl-info:nth-child(3) {
-  opacity: 1;
   animation: fadeInUp;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s;
@@ -701,7 +702,6 @@ video::-webkit-media-controls-panel {
   animation-delay: 0.2s;
 }
 .sec-cggirl .girls.visible .girl-info:nth-child(4) {
-  opacity: 1;
   animation: fadeInUp;
   /* referring directly to the animation's @keyframe declaration */
   animation-duration: 0.5s;
@@ -709,8 +709,8 @@ video::-webkit-media-controls-panel {
   animation-delay: 0.3s;
   transition-delay: 0.5s;
 }
-.sec-cggirl .girls .girl-info {
-  opacity: 0;
+.sec-cggirl .girls.visible .girl-info {
+  opacity: 1;
 }
 .sec-cggirl .girls .thumbnail {
   padding: 10px 10px 0 10px;
@@ -812,6 +812,8 @@ video::-webkit-media-controls-panel {
 .sec-news {
   margin-top: -50px;
   z-index: 30;
+  background: url(../img/charity-base.png);
+  background-size: cover;
 }
 .sec-news .intro {
   margin-bottom: 100px;
@@ -1205,8 +1207,8 @@ video::-webkit-media-controls-panel {
     height: 60vh;
   }
   .sec-about .about-quote {
-    width: 250px;
-    height: 100px;
+    width: 230px;
+    height: 90px;
     margin-top: 10px;
     background-size: contain;
   }
@@ -2446,7 +2448,7 @@ video::-webkit-media-controls-panel {
   height: 52%;
 }
 .section.sec-news .slick-dots {
-  bottom: 35px;
+  bottom: 65px;
 }
 .section.sec-news .slide {
   position: relative;
@@ -2480,7 +2482,7 @@ video::-webkit-media-controls-panel {
 @media only screen and (max-width: 768px) {
   .section.sec-news .intro {
     width: 70%;
-    left: 2.5%;
+    left: 25px;
     margin-left: 0;
     bottom: 20px;
     padding: 1rem;
@@ -2488,6 +2490,9 @@ video::-webkit-media-controls-panel {
   .section.sec-news .intro p {
     margin-top: 0.25rem;
     margin-bottom: 0.5rem;
+  }
+  .section.sec-news .intro h2 {
+    font-size: 20px;
   }
   .section.sec-news .slick-dots {
     bottom: 65px;
