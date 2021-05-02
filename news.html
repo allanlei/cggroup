@@ -20,7 +20,10 @@
   <link rel="stylesheet" type="text/css" href="js/vendor/fullpage/dist/fullpage.css" />
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick-theme.css"/>
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="css/main2.css">
   <link rel="stylesheet" type="text/css" href="examples.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -234,15 +237,12 @@
   <script type="text/javascript">
   
 
-var myFullpage = new fullpage('#fullpage2', {
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        scrollOverflow: true,
-        slidesNavigation:true,
-        controlArrows:true ,
-        controlArrows:false
-    });
-    $(document).ready(function(){
 
+    $(document).ready(function(){
+      $(".tabs li").click(function(){
+        $(".tabs li").removeClass("active");
+        $(this).addClass("active");
+      });
     });
 </script>
 
