@@ -134,6 +134,10 @@ textarea {
   width: auto;
 }
 
+p {
+  line-height: 25px;
+}
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -843,7 +847,7 @@ video::-webkit-media-controls-panel {
 .sec-contact {
   background-color: #530c0c;
   z-index: 50;
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
 }
 .sec-contact .intro {
   color: white;
@@ -1444,7 +1448,7 @@ video::-webkit-media-controls-panel {
 }
 .sec-about .locations .title {
   margin: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 .sec-about .locations .info {
   margin: auto;
@@ -1469,7 +1473,7 @@ video::-webkit-media-controls-panel {
   position: relative;
 }
 .sec-about .locations .map .show.locator:after {
-  height: 160px;
+  height: 150px;
   top: -70px;
   width: 4px;
 }
@@ -1507,21 +1511,24 @@ video::-webkit-media-controls-panel {
 }
 .sec-about .locations .map .locator .name {
   position: relative;
-  left: -24px;
+  left: -14px;
   top: -40px;
   z-index: 1;
   color: white;
-  height: 40px;
-  width: 90px;
+  height: 49px;
+  width: 70px;
   text-align: center;
   font-size: 15px;
-  padding-top: 8px;
+  padding: 4px;
   border-radius: 5px;
   display: block;
   background-color: #e5001b;
   transition-delay: 0.2s;
   transition: ease-in 0.25s;
   opacity: 0;
+}
+.sec-about .locations .map .locator .name img {
+  width: 100%;
 }
 .sec-about .locations .map .locator.show .name {
   opacity: 1;
@@ -1648,7 +1655,7 @@ video::-webkit-media-controls-panel {
     height: 40px;
   }
   .sec-about .locations .map .locator.show:after {
-    height: 90px;
+    height: 80px;
     top: -40px;
   }
   .sec-about .locations .map .locator.show .name {
@@ -1659,13 +1666,11 @@ video::-webkit-media-controls-panel {
   }
   .sec-about .locations .map .locator .name {
     position: relative;
-    left: -14px;
+    left: -10px;
     top: -20px;
-    padding-top: 5px;
-    border-radius: 5px;
     font-size: 13px;
-    width: 70px;
-    height: 30px;
+    width: 60px;
+    height: 43px;
     -webkit-transition: width 1s, height 1s, margin 1s;
     -moz-transition: width 1s, height 1s, margin 1s;
     -ms-transition: width 1s, height 1s, margin 1s;
@@ -2179,6 +2184,8 @@ video::-webkit-media-controls-panel {
 }
 #fullpage5 .sec-contact {
   background-color: white;
+  padding-bottom: 5rem;
+  min-height: 85vh;
   background: url(../img/contact-bg.jpg) no-repeat;
   background-size: cover;
 }
@@ -2659,4 +2666,104 @@ video::-webkit-media-controls-panel {
     -o-mask-position: 100% 0;
     mask-position: 100% 0;
   }
+}
+.scrolldown {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  margin: auto;
+  z-index: 9999;
+  text-align: center;
+  color: white;
+}
+.scrolldown .icon-down {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  transition: all ease-in 0.3s;
+}
+.scrolldown .icon-down:hover {
+  top: 4px;
+}
+.scrolldown .icon-down::before {
+  width: 16px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 7px;
+  transform: rotate(45deg);
+}
+.scrolldown .icon-down::after {
+  width: 16px;
+  height: 2px;
+  background-color: black;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  transform: rotate(135deg);
+}
+
+.gotop {
+  width: 100%;
+  margin: 0;
+  margin: auto;
+  z-index: 9999;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.gotop .icon-top {
+  width: 30px;
+  height: 25px;
+  opacity: 0.6;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  transition: all ease-in 0.3s;
+}
+.gotop .icon-top:hover {
+  top: 4px;
+}
+.gotop .icon-top::before {
+  width: 12px;
+  height: 2px;
+  background-color: white;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  transform: rotate(135deg);
+}
+.gotop .icon-top::after {
+  width: 12px;
+  height: 2px;
+  background-color: white;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  transform: rotate(45deg);
+}
+.gotop.dark {
+  color: black;
+}
+.gotop.dark .icon-top::before, .gotop.dark .icon-top::after {
+  background-color: black;
 }

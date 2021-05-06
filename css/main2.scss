@@ -146,6 +146,10 @@ textarea {
   width: auto;
 }
 
+p {
+  line-height: 25px;
+}
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -861,7 +865,7 @@ video::-webkit-media-controls-panel {
 .sec-contact {
   background-color: #530c0c;
   z-index: 50;
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
   .intro {
     color: white;
     position: relative;
@@ -1490,7 +1494,7 @@ video::-webkit-media-controls-panel {
     position: relative;
     .title {
       margin: auto;
-      margin-bottom: 1.5rem;
+      margin-bottom: 3rem;
     }
     .info {
       margin: auto;
@@ -1519,7 +1523,7 @@ video::-webkit-media-controls-panel {
       .show {
         &.locator {
           &:after {
-            height: 160px;
+            height: 150px;
             top: -70px;
             width: 4px;
           }
@@ -1565,21 +1569,24 @@ video::-webkit-media-controls-panel {
         }
         .name {
           position: relative;
-          left: -24px;
+          left: -14px;
           top: -40px;
           z-index: 1;
           color: white;
-          height: 40px;
-          width: 90px;
+          height: 49px;
+          width: 70px;
           text-align: center;
           font-size: 15px;
-          padding-top: 8px;
+          padding: 4px;
           border-radius: 5px;
           display: block;
           background-color: #e5001b;
           transition-delay: 0.2s;
           transition: ease-in 0.25s;
           opacity: 0;
+          img {
+            width: 100%;
+          }
         }
         &.show {
           .name {
@@ -1716,7 +1723,7 @@ video::-webkit-media-controls-panel {
           }
           &.show {
             &:after {
-              height: 90px;
+              height: 80px;
               top: -40px;
             }
 
@@ -1731,13 +1738,11 @@ video::-webkit-media-controls-panel {
 
           .name {
             position: relative;
-            left: -14px;
+            left: -10px;
             top: -20px;
-            padding-top: 5px;
-            border-radius: 5px;
             font-size: 13px;
-            width: 70px;
-            height: 30px;
+            width: 60px;
+            height: 43px;
             -webkit-transition: width 1s, height 1s, margin 1s;
             -moz-transition: width 1s, height 1s, margin 1s;
             -ms-transition: width 1s, height 1s, margin 1s;
@@ -2313,6 +2318,9 @@ video::-webkit-media-controls-panel {
   }
   .sec-contact {
     background-color: white;
+    padding-bottom: 5rem;
+    min-height: 85vh;
+
     .intro {
       padding-top: 4rem;
       animation: fadeInUp;
@@ -2830,5 +2838,110 @@ video::-webkit-media-controls-panel {
     -moz-mask-position: 100% 0;
     -o-mask-position: 100% 0;
     mask-position: 100% 0;
+  }
+}
+
+.scrolldown {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  margin: auto;
+  z-index: 9999;
+  text-align: center;
+  color: white;
+  .icon-down {
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    transition: all ease-in 0.3s;
+    &:hover {
+      top: 4px;
+    }
+    &::before {
+      width: 16px;
+      height: 2px;
+      background-color: black;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 7px;
+      transform: rotate(45deg);
+    }
+    &::after {
+      width: 16px;
+      height: 2px;
+      background-color: black;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 17px;
+      transform: rotate(135deg);
+    }
+  }
+}
+
+.gotop {
+  width: 100%;
+  margin: 0;
+  margin: auto;
+  z-index: 9999;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 10px;
+  font-size: 13px;
+
+  cursor: pointer;
+  .icon-top {
+    width: 30px;
+    height: 25px;
+    opacity: 0.6;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    transition: all ease-in 0.3s;
+    &:hover {
+      top: 4px;
+    }
+    &::before {
+      width: 12px;
+      height: 2px;
+      background-color: white;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 5px;
+      transform: rotate(135deg);
+    }
+    &::after {
+      width: 12px;
+      height: 2px;
+      background-color: white;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 12px;
+      transform: rotate(45deg);
+    }
+  }
+  &.dark {
+    color: black;
+    .icon-top {
+      &::before,
+      &::after {
+        background-color: black;
+      }
+    }
   }
 }

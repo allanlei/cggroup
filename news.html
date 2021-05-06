@@ -192,6 +192,10 @@
           </div>
         </div>
       </div>
+      <div class="gotop dark">
+        <div class="icon-top"></div>
+        <p>Top</p>
+      </div>
     </div>
  
 
@@ -244,6 +248,9 @@
         $(this).addClass("active");
       });
     });
+    $(".gotop").click(function(){
+          $('html, body').animate({scrollTop: 0}, 'slow');
+        });
 </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

@@ -36,6 +36,7 @@
 </head>
 
 <body>
+
   <div class="full-menu" style="display: none;">
     <div class="menu-top">
     <div class="logo"><a href="index.html"><img src='img/logo.png'/></a></div>
@@ -161,16 +162,16 @@
         <div class="info"><div class="title"><img src="img/title-location.png"/></div></div>
         <div class="container">
           <div class="map">
-            <div id="country1" class="locator show"><span class="num">1</span><span class="name">庫拉索</span></div>
-            <div id="country2" class="locator"><span class="num">2</span><span class="name">英國</span></div>
-            <div id="country3" class="locator"><span class="num">3</span><span class="name">塞普勒斯</span></div>
-            <div id="country4" class="locator"><span class="num">4</span><span class="name">印度</span></div>
-            <div id="country5" class="locator"><span class="num">5</span><span class="name">中國</span></div>
-            <div id="country6" class="locator"><span class="num">6</span><span class="name">泰國</span></div>
-            <div id="country7" class="locator"><span class="num">7</span><span class="name">越南</span></div>
-            <div id="country8" class="locator"><span class="num">8</span><span class="name">台灣</span></div>
-            <div id="country9" class="locator"><span class="num">9</span><span class="name">菲律賓</span></div>
-            <div id="country10" class="locator"><span class="num">10</span><span class="name">日本</span></div>
+            <div id="country1" class="locator show"><span class="num">1</span><span class="name"><img src='img/flag-curacao.png'/></span></div>
+            <div id="country2" class="locator"><span class="num">2</span><span class="name"><img src='img/flag-uk.png'/></span></div>
+            <div id="country3" class="locator"><span class="num">3</span><span class="name"><img src='img/flag-cyprus.png'/></span></div>
+            <div id="country4" class="locator"><span class="num">4</span><span class="name"><img src='img/flag-india.png'/></span></div>
+            <div id="country5" class="locator"><span class="num">5</span><span class="name"><img src='img/flag-china.png'/></span></div>
+            <div id="country6" class="locator"><span class="num">6</span><span class="name"><img src='img/flag-thailand.png'/></span></div>
+            <div id="country7" class="locator"><span class="num">7</span><span class="name"><img src='img/flag-vietnam.png'/></span></div>
+            <div id="country8" class="locator"><span class="num">8</span><span class="name"><img src='img/flag-taiwan.png'/></span></div>
+            <div id="country9" class="locator"><span class="num">9</span><span class="name"><img src='img/flag-philippines.png'/></span></div>
+            <div id="country10" class="locator"><span class="num">10</span><span class="name"><img src='img/flag-japan.png'/></span></div>
           </div>
           <ul class="countries">
             <li data-href="country1" class="active"><a>1<span></span>庫拉索</a></li>
@@ -185,7 +186,14 @@
             <li data-href="country10"><a>10<span></span>日本</a></li>
           </ul>
         </div>
+
+        <div class="gotop dark">
+          <div class="icon-top"></div>
+          <p>Top</p>
+        </div>
+
       </div>
+      
     </div>
 
  
@@ -274,6 +282,11 @@
         var index = $( ".map div" ).index( this );
         $( ".countries li" ).eq( index ).addClass("active");
       });
+
+      $(".gotop").click(function(){
+          $('html, body').animate({scrollTop: 0}, 'slow');
+        });
+
     });
 
 

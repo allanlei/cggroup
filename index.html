@@ -38,6 +38,10 @@
 </head>
 
 <body>
+  <div class="scrolldown">
+    <div class="icon-down"></div>
+    <p>Scroll Down</p>
+  </div>
   <div class="full-menu" style="display: none;">
     <div class="menu-top">
     <div class="logo"><img src='img/logo.png'/></div>
@@ -299,6 +303,13 @@
       </div>
       </div>
     </div>
+
+    <div class="gotop">
+      <div class="icon-top"></div>
+      <p>Top</p>
+    </div>
+
+
     </div>
     <div class="footer" id="section4">
       <div class="footer-top">
@@ -382,8 +393,19 @@
 				$(window).scroll(function() {
 					console.log('scroll');
 					checkVisability();
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            $(".scrolldown").fadeOut();
+          } else {
+            $(".scrolldown").fadeIn();
+          }
 				});
 
+        $(".scrolldown").click(function(){
+          $('html, body').animate({scrollTop: $('.sec-about').offset().top - 100 }, 'slow');
+        });
+        $(".gotop").click(function(){
+          $('html, body').animate({scrollTop: 0}, 'slow');
+        });
 
       $('.clouds, .clouds2').addClass("cloud");
         $('.sec-news').slick({
