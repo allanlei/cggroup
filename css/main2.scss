@@ -2015,6 +2015,17 @@ video::-webkit-media-controls-panel {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .sec-charity {
+    .tabs {
+      background-color: white;
+      width: 100%;
+      li {
+        width: 49%;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 768px) {
   .sec-contact {
     padding: 2rem 0;
@@ -2050,14 +2061,8 @@ video::-webkit-media-controls-panel {
     .news-list {
       background-color: white;
     }
-    .tabs {
-      background-color: white;
-      width: 100%;
-      li {
-        width: 49%;
-      }
-    }
   }
+
   .row {
     .col-sm-2 {
       flex: 0 0 50%;
@@ -2076,6 +2081,10 @@ video::-webkit-media-controls-panel {
 }
 
 //////////////////////////////////////
+#fullpage3 {
+  background: url(../img/bg1.jpg) repeat;
+  background-size: 30%;
+}
 
 .sec-milestone {
   #animatedHeading {
@@ -2104,7 +2113,6 @@ video::-webkit-media-controls-panel {
     }
   }
   //height: calc(100vh - 82px);
-  background: url(../img/bg1.jpg);
 
   .kv {
     width: 1125px;
@@ -3004,6 +3012,14 @@ video::-webkit-media-controls-panel {
       &::after {
         background-color: black;
       }
+    }
+  }
+  &.mobile-only {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    &.mobile-only {
+      display: block;
     }
   }
 }

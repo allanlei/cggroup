@@ -1930,6 +1930,15 @@ video::-webkit-media-controls-panel {
   max-width: 25%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .sec-charity .tabs {
+    background-color: white;
+    width: 100%;
+  }
+  .sec-charity .tabs li {
+    width: 49%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .sec-contact {
     padding: 2rem 0;
@@ -1964,13 +1973,6 @@ video::-webkit-media-controls-panel {
   .sec-charity .news-list {
     background-color: white;
   }
-  .sec-charity .tabs {
-    background-color: white;
-    width: 100%;
-  }
-  .sec-charity .tabs li {
-    width: 49%;
-  }
 
   .row .col-sm-2 {
     flex: 0 0 50%;
@@ -1983,9 +1985,11 @@ video::-webkit-media-controls-panel {
     max-width: 100%;
   }
 }
-.sec-milestone {
-  background: url(../img/bg1.jpg);
+#fullpage3 {
+  background: url(../img/bg1.jpg) repeat;
+  background-size: 30%;
 }
+
 .sec-milestone #animatedHeading {
   opacity: 0;
   transition: 1s ease-in;
@@ -2832,4 +2836,12 @@ video::-webkit-media-controls-panel {
 }
 .gotop.dark .icon-top::before, .gotop.dark .icon-top::after {
   background-color: black;
+}
+.gotop.mobile-only {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .gotop.mobile-only {
+    display: block;
+  }
 }

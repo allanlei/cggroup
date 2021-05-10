@@ -804,7 +804,7 @@
 		},
 	"/img/charity-mobile1.png": {
 		"ft": 32768,
-		"iS": 209186,
+		"iS": 168640,
 		"oA": 0,
 		"oAP": "/img/charity-mobile1.png",
 		"oF": 0,
@@ -815,7 +815,7 @@
 		},
 	"/img/charity-mobile2.png": {
 		"ft": 32768,
-		"iS": 171638,
+		"iS": 213501,
 		"oA": 0,
 		"oAP": "/img/charity-mobile2.png",
 		"oF": 0,
@@ -824,9 +824,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/charity-mobile3.png": {
+		"ft": 32768,
+		"iS": 203537,
+		"oA": 0,
+		"oAP": "/img/charity-mobile3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/charity1.png": {
 		"ft": 32768,
-		"iS": 519855,
+		"iS": 499152,
 		"oA": 0,
 		"oAP": "/img/charity1.png",
 		"oF": 0,
@@ -837,7 +848,7 @@
 		},
 	"/img/charity2.png": {
 		"ft": 32768,
-		"iS": 529433,
+		"iS": 468916,
 		"oA": 0,
 		"oAP": "/img/charity2.png",
 		"oF": 0,
@@ -848,7 +859,7 @@
 		},
 	"/img/charity3.png": {
 		"ft": 32768,
-		"iS": 559436,
+		"iS": 480704,
 		"oA": 0,
 		"oAP": "/img/charity3.png",
 		"oF": 0,
@@ -969,7 +980,7 @@
 		},
 	"/img/flag-china.png": {
 		"ft": 32768,
-		"iS": 12839,
+		"iS": 4334,
 		"oA": 0,
 		"oAP": "/img/flag-china.png",
 		"oF": 0,
@@ -980,12 +991,12 @@
 		},
 	"/img/flag-curacao.png": {
 		"ft": 32768,
-		"iS": 10583,
+		"iS": 2670,
 		"oA": 0,
 		"oAP": "/img/flag-curacao.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1035,7 +1046,7 @@
 		},
 	"/img/flag-taiwan.png": {
 		"ft": 32768,
-		"iS": 17789,
+		"iS": 2822,
 		"oA": 0,
 		"oAP": "/img/flag-taiwan.png",
 		"oF": 0,
@@ -1046,7 +1057,7 @@
 		},
 	"/img/flag-thailand.png": {
 		"ft": 32768,
-		"iS": 11057,
+		"iS": 1569,
 		"oA": 0,
 		"oAP": "/img/flag-thailand.png",
 		"oF": 0,
@@ -1057,7 +1068,7 @@
 		},
 	"/img/flag-uk.png": {
 		"ft": 32768,
-		"iS": 27629,
+		"iS": 5529,
 		"oA": 0,
 		"oAP": "/img/flag-uk.png",
 		"oF": 0,
@@ -1068,7 +1079,7 @@
 		},
 	"/img/flag-vietnam.png": {
 		"ft": 32768,
-		"iS": 15926,
+		"iS": 5137,
 		"oA": 0,
 		"oAP": "/img/flag-vietnam.png",
 		"oF": 0,
@@ -1385,6 +1396,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/milestone1.jpeg": {
+		"ft": 16384,
+		"iS": 217590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/milestone1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/milestone1.jpg": {
 		"ft": 16384,
 		"iS": 175874,
@@ -1448,17 +1470,6 @@
 		"oAP": "/img/mixkit-mist-at-the-base-of-a-snowy-mountain-3308_1.mp4",
 		"oF": 0
 		},
-	"/img/mountain-side.png": {
-		"ft": 32768,
-		"iS": 478974,
-		"oA": 0,
-		"oAP": "/img/mountain-side.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/news-bg-b.png": {
 		"ft": 32768,
 		"iS": 571319,
@@ -1503,17 +1514,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/news1-mobile.png": {
-		"ft": 32768,
-		"iS": 310652,
-		"oA": 0,
-		"oAP": "/img/news1-mobile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/news1.jpg": {
 		"ft": 16384,
 		"iS": 196556,
@@ -1536,33 +1536,88 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/news2.jpg": {
-		"ft": 16384,
-		"iS": 124483,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/news2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/news2.png": {
+	"/img/thumbnail1.png": {
 		"ft": 32768,
-		"iS": 150556,
+		"iS": 40684,
 		"oA": 0,
-		"oAP": "/img/news2.png",
+		"oAP": "/img/thumbnail1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/news3.png": {
+	"/img/thumbnail2.png": {
 		"ft": 32768,
-		"iS": 220264,
+		"iS": 48963,
 		"oA": 0,
-		"oAP": "/img/news3.png",
+		"oAP": "/img/thumbnail2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail3.png": {
+		"ft": 32768,
+		"iS": 53947,
+		"oA": 0,
+		"oAP": "/img/thumbnail3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail4.png": {
+		"ft": 32768,
+		"iS": 50835,
+		"oA": 0,
+		"oAP": "/img/thumbnail4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail5.png": {
+		"ft": 32768,
+		"iS": 51471,
+		"oA": 0,
+		"oAP": "/img/thumbnail5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail6.png": {
+		"ft": 32768,
+		"iS": 56043,
+		"oA": 0,
+		"oAP": "/img/thumbnail6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail7.png": {
+		"ft": 32768,
+		"iS": 63312,
+		"oA": 0,
+		"oAP": "/img/thumbnail7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/thumbnail8.png": {
+		"ft": 32768,
+		"iS": 41637,
+		"oA": 0,
+		"oAP": "/img/thumbnail8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
