@@ -33,7 +33,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="fullbg">
   <div class="full-menu" style="display: none;">
     <div class="menu-top">
     <div class="logo"><a href="index.html"><img src='img/logo.png'/></a></div>
@@ -56,20 +56,21 @@
         <ul class="side-menu">
           <li>
             <span>外部連結</span>
-            <a>冠軍女孩</a>
+            <a href="https://cg-girl.com/" target="_blank">冠軍女孩</a>
           </li>
           <li>
             <span>關注我們</span>
             <div class="social-icon">
-              <div class="fb"></div>
-              <div class="ig"></div>
+              <a href=" https://www.facebook.com/ChampionGofficial" target="_blank"><div class="fb"></div></a>
+            <a href=" https://www.linkedin.com/company/championgroup1" target="_blank"><div class="ig"></div></a>
             </div>
           </li>
           <li>
             <span>切換語系</span>
             <div class="language">
               <select class="form-control" id="language-select">
-                <option>中文</option>
+                <option>繁中</option>
+                <option>簡中</option>
                 <option>English</option>
               </select>
             </div>
@@ -92,7 +93,8 @@
         <div class="nav-right">
           <div class="language">
             <select class="form-control" id="language-select">
-              <option>中文</option>
+              <option>繁中</option>
+              <option>簡中</option>
               <option>English</option>
             </select>
           </div>
@@ -120,17 +122,17 @@
       <div class="container">
         <div class="kv slider-for">
           
-          <div id="encima"><img class="img-mask"  src="img/milestone1.jpg"/></div>
+          <div id="encima"><img class="img-mask"  src="img/milestone1.png"/></div>
+          <div><img class="img-mask"  src="img/milestone1.png"/></div>
+          <div><img class="img-mask"  src="img/milestone2.png"/></div>
+          <div><img class="img-mask"  src="img/milestone3.png"/></div>
+          <div><img class="img-mask"  src="img/milestone4.png"/></div>
+          <div><img class="img-mask"  src="img/milestone5.png"/></div>
+          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone7.png"/></div>
+          <div><img class="img-mask"  src="img/milestone8.png"/></div>
           <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone3.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone3.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone1.jpg"/></div>
-          <div><img class="img-mask"  src="img/milestone2.jpg"/></div>
+          <div><img class="img-mask"  src="img/milestone10.png"/></div>
 
         </div>
         <div class="hero__title slider-nav" id="animatedHeading">
@@ -208,11 +210,13 @@
           </div>
         </div>
       </div>
+
+      <div class="gotop dark mobile-only">
+        <div class="icon-top"></div>
+        <p>Top</p>
+      </div>
     </div>
-    <div class="gotop dark mobile-only">
-      <div class="icon-top"></div>
-      <p>Top</p>
-    </div>
+
 
     <div class="footer section  fp-auto-height" >
       <div class="footer-top">
@@ -226,8 +230,8 @@
             </ul>
           </nav>
           <div class="social-icon">
-            <div class="fb"></div>
-            <div class="ig"></div>
+            <a href=" https://www.facebook.com/ChampionGofficial" target="_blank"><div class="fb"></div></a>
+            <a href=" https://www.linkedin.com/company/championgroup1" target="_blank"><div class="ig"></div></a>
           </div>
         </div>
       </div>
@@ -261,32 +265,36 @@
   
   $(document).ready(function(){
     if ($(window).width() > 960) {
-function checkVisability() {
+      function checkVisability() {
 
 
-   if ($(".kv").inView("both")) {
-    
-     $("#animatedHeading").addClass("show");
-   }
+        if ($(".kv").inView("both")) {
+          
+          $("#animatedHeading").addClass("show");
+        }
 
- }
+      }
 
- checkVisability();
+      checkVisability();
 
- $(window).scroll(function() {
- console.log('scroll');
- checkVisability();
- });
-    }
+      $(window).scroll(function() {
+      console.log('scroll');
+      checkVisability();
+      });
+          }
+
 
 });
+if($(window).width() > 960){
+
+
 var myFullpage = new fullpage('#fullpage3', {
-        scrollOverflow: $(window).width() <  960,
+        scrollOverflow: $(window).width() < 960,
         slidesNavigation:true,
         controlArrows:true ,
         controlArrows:false
     });
-   
+  }
 </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

@@ -1985,7 +1985,7 @@ video::-webkit-media-controls-panel {
     max-width: 100%;
   }
 }
-#fullpage3 {
+.fullbg {
   background: url(../img/bg1.jpg) repeat;
   background-size: 30%;
 }
@@ -2033,7 +2033,7 @@ video::-webkit-media-controls-panel {
 }
 .sec-milestone .kv .img-mask {
   -webkit-mask-image: url(../img/milestone-mask.png);
-  mask-image: url(../img/milestone-mask.jpg);
+  mask-image: url(../img/milestone-mask.png);
   -webkit-mask-size: 1125px 682px;
   mask-size: 1125px 682px;
   overflow: hidden;
@@ -2132,10 +2132,12 @@ video::-webkit-media-controls-panel {
     z-index: 10;
     position: relative;
   }
-  .mobile-img.first, .mobile-img.third,
-.slick-vertical .slick-slide.mobile-img.first,
+  .mobile-img.first,
+.slick-vertical .slick-slide.mobile-img.first {
+    margin-left: -60px;
+  }
+  .mobile-img.third,
 .slick-vertical .slick-slide.mobile-img.third {
-    float: left;
     margin-left: -60px;
   }
   .mobile-img.second,
@@ -2244,6 +2246,12 @@ video::-webkit-media-controls-panel {
   }
   .sec-milestone .hero__title:after {
     height: 2100px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #fullpage3 {
+    width: 100%;
+    overflow: hidden;
   }
 }
 #fullpage5 {
@@ -2445,6 +2453,7 @@ video::-webkit-media-controls-panel {
 }
 .full-menu .menu-wrapper .menu-content .side-menu a {
   font-size: 26px;
+  color: white;
 }
 .full-menu .menu-wrapper .menu-corner {
   width: 83px;

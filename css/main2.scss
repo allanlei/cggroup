@@ -2081,7 +2081,7 @@ video::-webkit-media-controls-panel {
 }
 
 //////////////////////////////////////
-#fullpage3 {
+.fullbg {
   background: url(../img/bg1.jpg) repeat;
   background-size: 30%;
 }
@@ -2136,7 +2136,7 @@ video::-webkit-media-controls-panel {
     }
     .img-mask {
       -webkit-mask-image: url(../img/milestone-mask.png);
-      mask-image: url(../img/milestone-mask.jpg);
+      mask-image: url(../img/milestone-mask.png);
       -webkit-mask-size: 1125px 682px;
       mask-size: 1125px 682px;
       overflow: hidden;
@@ -2240,9 +2240,10 @@ video::-webkit-media-controls-panel {
     z-index: 10;
     position: relative;
 
-    &.first,
+    &.first {
+      margin-left: -60px;
+    }
     &.third {
-      float: left;
       margin-left: -60px;
     }
     &.second {
@@ -2380,7 +2381,12 @@ video::-webkit-media-controls-panel {
     }
   }
 }
-
+@media only screen and (max-width: 960px) {
+  #fullpage3 {
+    width: 100%;
+    overflow: hidden;
+  }
+}
 #fullpage5 {
   padding-top: 80px;
   .form-container {
@@ -2583,6 +2589,7 @@ video::-webkit-media-controls-panel {
         }
         a {
           font-size: 26px;
+          color: white;
         }
       }
     }

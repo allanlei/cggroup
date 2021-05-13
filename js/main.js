@@ -14,4 +14,8 @@ $(document).ready(function(){
         $(".menu-wrapper").removeClass("show");
         $(".main-menu li, .side-menu li").removeClass("animate");
       });
+
+      $(".gotop").click(function(){
+        $('html, body').animate({scrollTop: 0}, 'slow');
+      });
 });

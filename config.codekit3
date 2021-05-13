@@ -1418,6 +1418,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/milestone1.png": {
+		"ft": 32768,
+		"iS": 402144,
+		"oA": 0,
+		"oAP": "/img/milestone1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone10.png": {
+		"ft": 32768,
+		"iS": 378161,
+		"oA": 0,
+		"oAP": "/img/milestone10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/milestone2.jpg": {
 		"ft": 16384,
 		"iS": 153105,
@@ -1429,6 +1451,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/milestone2.png": {
+		"ft": 32768,
+		"iS": 389336,
+		"oA": 0,
+		"oAP": "/img/milestone2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/milestone3.jpg": {
 		"ft": 16384,
 		"iS": 434177,
@@ -1438,6 +1471,61 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/milestone3.png": {
+		"ft": 32768,
+		"iS": 560518,
+		"oA": 0,
+		"oAP": "/img/milestone3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone4.png": {
+		"ft": 32768,
+		"iS": 504589,
+		"oA": 0,
+		"oAP": "/img/milestone4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone5.png": {
+		"ft": 32768,
+		"iS": 628687,
+		"oA": 0,
+		"oAP": "/img/milestone5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone7.png": {
+		"ft": 32768,
+		"iS": 822828,
+		"oA": 0,
+		"oAP": "/img/milestone7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/milestone8.png": {
+		"ft": 32768,
+		"iS": 563544,
+		"oA": 0,
+		"oAP": "/img/milestone8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/milsetone-img2.png": {
@@ -2946,7 +3034,7 @@
 "projectAttributes": {
 	"creationDate": 639651007.63407302,
 	"displayValue": "cg-web",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0
 	},
